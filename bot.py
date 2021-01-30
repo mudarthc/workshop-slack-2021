@@ -8,4 +8,4 @@ load_dotenv(dotenv_path=env_path)
 
 client = slack.WebClient(token= os.environ['SLACK_TOKEN'])
 
-client.chat_postMessage(channel='#workshop-demo-2021', text="hello World!")
+client.chat_postMessage(channel='#workshop-2021', text="hello World!")
